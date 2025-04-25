@@ -1,0 +1,82 @@
+body {
+    background-color: #006f6f;
+    margin: 00px;
+    font-family: trajan, sans-serif;
+}
+
+@font-face {
+    font-family: trajan;
+    src: url('Assets/TrajanPro-Regular.ttf') format('truetype');
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #006f6f;
+    font-family: trajan, sans-serif;
+    font-size: 25px;
+    margin: 0px auto;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li {
+    justify-content: center; 
+}
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+h1 {
+    font-size: 65px;
+    text-align: center;
+    margin: 120px 50px 0px 50px;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+    margin: 40px 50px 0px 50px;
+}
+
+@media screen and (max-width: 1000px) {
+    nav a {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 40px;
+        margin-top: 60px;
+    }
+    p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    nav a {
+        font-size: 15px;
+        padding: 7px 
+        }
+    h1 {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    p {
+        font-size: 18px;
+    }
+}
+
+nav li a:hover {
+    background-color: #005050;
+    color: #f0a903;
+    transition: background-color 1s ease, color 0.5s ease;
+}
+
+.home-images {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 100px
+}
