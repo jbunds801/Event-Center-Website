@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <img src="Assets/header.png" alt="Lorum Ipsum" style="width: 100%; height: auto;">
@@ -25,21 +27,29 @@
         will get back to you as soon as possible
     </p>
 
-<fieldset>
-    <form action="/submit" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name"   placeholder="Enter Your Name">
-    </form>
-<br/>
-    <form>    
-        <label for="contact">Contact:</label>
-        <input type="text" id="contact" name="contact"   placeholder="Enter Your Contact Info">
-    </form>
-<br/>
-    <form>
-        <label for="comments">Comments:</label>
-        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Questions or Comments"></textarea>
-    </form>
-</fieldset>
+    <fieldset>
+        <form action="/submit" method="POST">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter Your Name">
+            </div>
+            <br />
+            <div>
+                <label for="contact">Contact:</label>
+                <input type="text" id="contact" name="contact" placeholder="Contact Info">
+            </div>
+            <br />
+            <div>
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="10" cols="50"
+                    placeholder="Questions or Comments"></textarea>
+            </div>
+            <br/>
+            <div>
+                <input type="submit" value="Submit" class="button">
+            </div>
+        </form>
+    </fieldset>
 </body>
+
 </html>
